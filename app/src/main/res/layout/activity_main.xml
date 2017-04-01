@@ -31,6 +31,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
+            <include layout="@layout/air_quality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <include layout="@layout/suggestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
         </LinearLayout>
 
     </ScrollView>
