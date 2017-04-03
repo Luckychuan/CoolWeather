@@ -11,7 +11,7 @@ public class Suggestion {
     public Suggestion1 suggestion1;
 
     @SerializedName("cw")
-    public Suggestion3  suggestion2;
+    public Suggestion2  suggestion2;
 
     @SerializedName("sport")
     public Suggestion3  suggestion3;

@@ -11,7 +11,7 @@ public class Now {
     public String temperature;
 
     @SerializedName("cond")
-    public WeatherInfo weatherIinfo;
+    public WeatherInfo weatherInfo;
 
     public class WeatherInfo{
 

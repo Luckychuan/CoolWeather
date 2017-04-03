@@ -10,8 +10,26 @@
         android:text="@string/default_string2"
         android:gravity="center_vertical"/>
 
-    <ListView
+    <TextView
+        android:id="@+id/suggestion1"
+        android:textSize="10dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></ListView>
+        android:layout_height="50dp"
+        android:gravity="start"/>
+
+    <TextView
+        android:id="@+id/suggestion2"
+        android:textSize="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="start"/>
+
+    <TextView
+        android:id="@+id/suggestion3"
+        android:textSize="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="start"/>
+
 
 </LinearLayout>
