@@ -18,4 +18,15 @@ public class Weather {
     @SerializedName("daily_forecast")
     public List<Forecast> forecasts;
 
+    @Override
+    public String toString() {
+        return "Weather{" +
+                "status='" + status + '\'' +
+                ", basic=" + basic +
+                ", aqi=" + aqi +
+                ", now=" + now +
+                ", suggestion=" + suggestion +
+                ", forecasts=" + forecasts +
+                '}';
+    }
 }
